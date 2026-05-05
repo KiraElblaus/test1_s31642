@@ -1,8 +1,7 @@
+namespace APBD_TEST_TEMPLATE.Services;
 using APBD_TEST_TEMPLATE.DTOs;
 
-namespace APBD_TEST_TEMPLATE.Repositories;
-
-public interface IMakersRepository
+public interface IMakerService
 {
     Task<List<MakersProductResponse>> GetMakersAsync(string? name);
     

@@ -4,5 +4,5 @@ public class MakersProductResponse
 {
     public int id { get; set; }
     public string name { get; set; } = null!;
-    public List<ProductVendrosResponse> productVendors { get; set; } = new();
+    public List<MakersProductResponse> products { get; set; } = new();
 }

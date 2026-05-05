@@ -7,5 +7,6 @@ public class ProductVendrosResponse
     public string description { get; set; } = null!;
     public decimal strickerPrice { get; set; }
     public ProductTypeResponse productType { get; set; } = null!;
+    public List<VendorsResponse> vendors { get; set; } 
 
 }
